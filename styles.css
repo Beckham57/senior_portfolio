@@ -1,0 +1,5 @@
+li a:hover{
+    color: black;
+    border-bottom: 1px rgb(211, 4, 211) solid;
+    transition: all 1s;
+}
