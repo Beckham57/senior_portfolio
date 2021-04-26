@@ -1,5 +1,19 @@
 li a:hover{
     color: black;
-    border-bottom: 1px rgb(211, 4, 211) solid;
-    transition: all 1s;
+    border-bottom: 1px rgb(39, 102, 184) solid;
+    transition: all;
+}
+
+div#cover{
+    background-image: url("Images/cityNight.png");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+footer{
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    background-color: #ade8f4;
 }
