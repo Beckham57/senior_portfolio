@@ -10,10 +10,17 @@ div#cover{
     background-attachment: fixed;
     height: 100vh;
 }
+div#body{
+    width: 100%;
+}
+
+div.row{
+    border: black 3px solid;
+}
 
 footer{
-    height: 80px;
-    line-height: 80px;
+    height: 50px;
+    line-height: 50px;
     text-align: center;
     background-color: #ade8f4;
 }
