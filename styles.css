@@ -1,3 +1,6 @@
+/* ///////////////  General Styles /////////////////// */
+
+/*Nav Bar styles*/
 li a:hover{
     color: black;
     border-bottom: 1px rgb(39, 102, 184) solid;
@@ -14,6 +17,12 @@ div#body{
     width: 100%;
 }
 
+footer{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #ade8f4;
+}
 /* div.col-4{
     margin-left: 10%;
 } */
@@ -22,9 +31,25 @@ div#columns{
     border: black 3px solid;
 }
 
-footer{
-    height: 50px;
-    line-height: 50px;
-    text-align: center;
-    background-color: #ade8f4;
+/* ///////////// Contact Pg Styles //////////////// */
+
+#contact{
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 6%;
 }
+
+p{
+    background-color: #ade8f4;
+    width: 55%;
+    height:35%;
+    border-radius: 40px;
+    margin-left: ;
+    padding-left: 9%;
+    padding-top: 3%;
+}
+
+#submit{
+    margin-bottom: 5%;
+}
+

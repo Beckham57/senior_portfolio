@@ -49,11 +49,29 @@
     <div class="row">
         <h1 class="text-center">Contact</h1>
     </div>
+    <br>
+    <img id="contact" src="Images/city2.png" alt="picture of city"/>
     <div class="row">
-      <div class="w-25">
-        <p>m</p>
+      <div class="w-25 my-3">
+        <div class="row">
+          <div class="col-4">
+          <p class="mx-5"><img src="envelope.svg" alt="mail icon" height="40px" width="30px"/></p>
+          <br>
+          <p class="mx-5"><img src="phone.svg" alt="phone icon" height="40px" width="30px"/></p>
+        </div>
+        <div class="col-6">
+          <h5>Email:</h5>
+          <h6>beckhaml</h6>
+          <br>
+          <h5>Phone Number:</h5>
+          <h6>(623)399-3145</h6>
+        </div>
+        <br>
+        </div>
+        
       </div>
-      <form class="row w-75 g-3">
+      <div class="w-75">
+        <form class="row mx-auto w-75 g-3">
           <div class="col-md-6">
             <label for="name" class="form-label">Name</label>
             <input type="text" class="form-control" id="name">
@@ -67,15 +85,20 @@
             <input type="email" class="form-control" id="inputEmail4" placeholder="example@example.com">
           </div>
           <div class="col-12">
+            <label for="subject" class="form-label">Subject</label>
+            <input type="text" class="form-control" id="subject">
+          </div>
+          <div class="col-12">
             <textarea style="width: 100%;">
     
             </textarea>
           </div>
           <div class="col-12">
-            <button type="submit" class="btn btn-primary">Sign in</button>
+            <button id="submit" type="submit" class="btn btn-primary">Sign in</button>
           </div>
-        </form>
-    </div>
+      </form>
+      </div>
+  </div>
   
   </div>
 </body>
