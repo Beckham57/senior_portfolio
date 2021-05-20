@@ -18,21 +18,24 @@ div#body{
 }
 
 footer{
-    height: 50px;
+    height: fit-content;
     line-height: 50px;
     text-align: center;
     background-color: #ade8f4;
 }
-/* div.col-4{
-    margin-left: 10%;
-} */
 
-div.row{
+/* div.row{
     border: black 3px solid;
 }
-div.col-5{
+div.col-4{
     border: black 3px solid;
 }
+div.col-8{
+    border: black 3px solid;
+}
+div.col-6{
+    border: black 3px solid;
+} */
 
 /* ///////////// Contact Pg Styles //////////////// */
 
@@ -53,5 +56,22 @@ p#icon{
 
 #submit{
     margin-bottom: 5%;
+}
+
+/* //////////// Resume Pg Styles ///////////// */
+p#resume{
+    border-top: 4px #ade8f4 solid;
+}
+
+#more{
+    display: none;
+}
+/* //////////// Contact Pg Styles /////////// */
+div#top{
+    border-top: 4px #ade8f4 solid;
+}
+
+p#about{
+    border-top: 4px #ade8f4 solid;
 }
 
